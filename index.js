@@ -4,10 +4,11 @@ let heigth=" Heigth: 1.7 meters"
 let country="Country: Nigeria"
 let all= names + " " + heigth +" " + country
 
+document.write(names," ",heigth, " ",country)
 alert(all)
 
 
-document.write(names," ",heigth, " ",country)
+
 
 
 console.log(names)
